@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>CADisableMinimumFrameDurationOnPhone</key>
+		<true/>
+		<key>NSPhotoLibraryUsageDescription</key>
+        <string>CP Drive lets you browse, view, share and delete your photos and videos on your phone.</string>
+        <key>NSPhotoLibraryAddUsageDescription</key>
+        <string>Allow CP Drive to save photos and videos to your photo library when you choose to do so.</string>
+        <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+        <true/>
+        <key>NSCameraUsageDescription</key>
+        <string>Allow camera access only when you approve a website request or choose to capture an upload.</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>Allow microphone access only when you approve a website audio request.</string>
+        <key>NSAppTransportSecurity</key>
+        <dict><key>NSAllowsArbitraryLoadsInWebContent</key><true/></dict>
+        <key>UIFileSharingEnabled</key><true/>
+        <key>LSSupportsOpeningDocumentsInPlace</key><true/>
+        <key>LSApplicationQueriesSchemes</key>
+        <array><string>googlechrome</string><string>googlechromes</string><string>mailto</string><string>tel</string><string>sms</string></array>
+        <key>UIBackgroundModes</key>
+        <array><string>audio</string></array>
+		<key>CFBundleDevelopmentRegion</key>
+		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleDisplayName</key>
+		<string>CP Drive</string>
+		<key>CFBundleExecutable</key>
+		<string>$(EXECUTABLE_NAME)</string>
+		<key>CFBundleIdentifier</key>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		<key>CFBundleInfoDictionaryVersion</key>
+		<string>6.0</string>
+		<key>CFBundleName</key>
+		<string>CP Drive</string>
+		<key>CFBundlePackageType</key>
+		<string>APPL</string>
+		<key>CFBundleShortVersionString</key>
+		<string>$(FLUTTER_BUILD_NAME)</string>
+		<key>CFBundleSignature</key>
+		<string>????</string>
+		<key>CFBundleVersion</key>
+		<string>$(FLUTTER_BUILD_NUMBER)</string>
+		<key>LSRequiresIPhoneOS</key>
+		<true/>
+		<key>UIApplicationSceneManifest</key>
+		<dict>
+			<key>UIApplicationSupportsMultipleScenes</key>
+			<true/>
+			<key>UISceneConfigurations</key>
+			<dict>
+				                <key>CPTemplateApplicationSceneSessionRoleApplication</key>
+                <array><dict>
+                    <key>UISceneClassName</key><string>CPTemplateApplicationScene</string>
+                    <key>UISceneConfigurationName</key><string>CarPlay</string>
+                    <key>UISceneDelegateClassName</key><string>$(PRODUCT_MODULE_NAME).CarPlaySceneDelegate</string>
+                </dict></array>
+				<key>UIWindowSceneSessionRoleApplication</key>
+				<array>
+					<dict>
+						<key>UISceneClassName</key>
+						<string>UIWindowScene</string>
+						<key>UISceneConfigurationName</key>
+						<string>flutter</string>
+						<key>UISceneDelegateClassName</key>
+						<string>$(PRODUCT_MODULE_NAME).PhoneSceneDelegate</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<key>UIApplicationSupportsIndirectInputEvents</key>
+		<true/>
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
+		<key>UISupportedInterfaceOrientations</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UISupportedInterfaceOrientations~ipad</key>
+		<array>
+			<string>UIInterfaceOrientationPortrait</string>
+			<string>UIInterfaceOrientationPortraitUpsideDown</string>
+			<string>UIInterfaceOrientationLandscapeLeft</string>
+			<string>UIInterfaceOrientationLandscapeRight</string>
+		</array>
+		<key>UIStatusBarHidden</key>
+		<false/>
+	</dict>
+</plist>

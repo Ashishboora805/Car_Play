@@ -1,0 +1,6 @@
+# Copy to android/key.properties locally. Keep the real file and keystore private.
+# Use forward slashes for Windows paths. Relative paths resolve from android/.
+storeFile=C:/private/cpdrive-upload.jks
+storePassword=YOUR_PRIVATE_STORE_PASSWORD
+keyAlias=YOUR_UPLOAD_KEY_ALIAS
+keyPassword=YOUR_PRIVATE_KEY_PASSWORD
